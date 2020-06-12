@@ -1,6 +1,6 @@
 {
   "name": "@alimert/kripton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "encryption using caesar's cyrpt, supports digit passwords like[1,8,8,1]",
   "main": "index.js",
   "scripts": {
