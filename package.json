@@ -1,7 +1,7 @@
 {
-  "name": "kripton",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@alimert/kripton",
+  "version": "1.0.2",
+  "description": "encryption using caesar's cyrpt, supports digit passwords like[1,8,8,1]",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
