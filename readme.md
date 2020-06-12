@@ -6,7 +6,7 @@ Encryption is done only with a single line, package is just 5 lines, **don't use
 
 ## Usage
 
-`require {caesar} from "@alimert/caesar";`
+`const caesar = require("@alimert/kripton");`
 
 **Encrypt**
 
