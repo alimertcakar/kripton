@@ -3,10 +3,10 @@ class caesar {
         return char.charCodeAt() + shift;
     }
     static encrypt(str, amount) {
-        return String.fromCharCode(...str.split("").map((c, index) => shifter(c, amount[index % amount.length])));
+        return String.fromCharCode(...str.split("").map((c, index) => this.shifter(c, amount[index % amount.length])));
     }
     static decrypt(str, amount) {
-        return String.fromCharCode(...str.split("").map((c, index) => shifter(c, -amount[index % amount.length])));
+        return String.fromCharCode(...str.split("").map((c, index) => this.shifter(c, -amount[index % amount.length])));
     }
 }
 
